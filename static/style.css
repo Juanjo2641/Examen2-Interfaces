@@ -1,0 +1,172 @@
+/*# sourceMappingURL=style.css.map */
+/*nombre_del_alumno = Juan José Aragón Egea*/
+
+@import url('https://fonts.cdnfonts.com/css/fredoka-one');
+
+body{
+
+    background: rgb(61,55,65);
+    background: linear-gradient(90deg, rgba(61,55,65,1) 2%, 
+                rgba(203,139,37,1) 32%, rgba(129,126,123,1) 65%, 
+                rgba(153,198,196,1) 87%);
+
+                font-size:16px;
+    
+}
+
+#exter{
+    border: solid 2px black;
+    width: 830px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 30px;
+    height: 500px;
+    margin:10% 0 0 15%;
+    width:70%;
+    
+    
+}
+
+#inter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    height: 60%;
+    margin-top:5%;
+    
+}
+
+
+
+h2,h3{
+    font-family:"Fredoka One";
+}
+
+
+h2,h3{
+    text-align: center;
+}
+
+th{
+    background-color: orange;
+    font-family:"Fredoka One";
+}
+
+table{
+    border:solid 1px black;
+    background-color: white;
+    border-collapse: collapse;
+    margin: 3% 5% 10px 15%;
+    height: 20%;
+    text-align: center;
+    width: 70%;
+
+}
+h2{
+    font-size: 2.5rem;
+}
+
+table tr, table td{
+    border:solid 2px orange;
+    padding: 0.5%;
+    
+
+}
+
+table tr:hover td{
+    background-color:orange;
+}
+
+
+.boton{
+    margin: 0px auto;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    padding:15px;
+    width: 15vw;
+    margin-top: 2%;
+}
+
+.boton:hover{
+    cursor:pointer;
+}
+.Man{
+    background-color: blue;
+    color: white;
+}
+.Woman{
+    background-color: pink;
+    color: white;
+}
+.actividad{
+    background-color: grey;
+    color: white;
+}
+
+/* Página 2 */
+
+#exter2{
+    border: solid 2px black;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 30px;
+    height: 500px;
+    margin:10% 0 0 30%;
+    width:40%;
+    display: none;
+}
+
+#inter2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    height: 60%;
+    margin-top:7%;
+}
+
+form *{
+    margin-top: 15px;
+}
+
+input{
+    margin: 15px 0 10px 2%;
+}
+#edad{
+    margin-left: 20px;
+}
+
+#altura{
+    margin-right: 20px;
+}
+
+#peso{
+    margin-left: 20px;
+}
+#actividad{
+    margin-right: 30px;
+}
+#añadir{
+    margin: 0px auto;
+    background-color: green;
+    border: solid 2px black;
+    border-radius: 5px;
+    color:white;
+    padding:7px;
+    width: 15vw;
+    margin-top: 13%;
+    cursor: pointer;
+}
+
+#atras{
+    background-color: lightgray;
+    border: none;
+    padding:7px;
+    width: 15vw;
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+

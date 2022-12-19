@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="">
+    <!-- Completa tu nombre -->
+    <title>JUAN JOSÉ ARAGÓN EGEA</title>
+
+    
+</head>
+<body>
+
+
+    <!-- Completar html aqui -->
+    <section id="exter">
+
+    
+        <h2>Aplicacion de dietas</h2>
+
+        <div id="inter">
+        <table>
+            <thead class ="tittle"> 
+                <tr>
+                    <th>Nombre</th>
+                    <th>Sexo</th>
+                    <th>Edad</th>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                    <th>Actividad</th>
+                    <th>IM Basal</th>
+                    <th>Calorias necesarias</th>
+                </tr>
+            </thead>
+            <tbody id="contenido">
+                <tr>
+                    <td>Francisco Romero</td>
+                    <div><td class="Man">Hombre</td></div>
+                    <td>31</td>
+                    <td>198</td>
+                    <td>89</td>
+                    <td class="actividad">Moderada</td>
+                    <td>1427 kCal</td>
+                    <td>1712 kCal</td>
+                </tr>
+                <tr>
+                    <td>Jose Antonio Lara</td>
+                    <div><td class="Man">Hombre</td></div>
+                    <td>46</td>
+                    <td>187</td>
+                    <td>85</td>
+                    <td class="actividad">Moderada</td>
+                    <td>1333 kCal</td>
+                    <td>1435 kCal</td>
+                </tr>
+                <tr>
+                    <td>Jennifer</td>
+                    <td class="Woman">Mujer</td>
+                    <td>45</td>
+                    <td>167</td>
+                    <td>85</td>
+                    <td class="actividad">Moderada</td>
+                    <td>1256 kCal</td>
+                    <td>1943 kCal</td>
+                </tr>
+                <tr>
+                    <td>Juan José Aragón</td>
+                    <td class="Man">Hombre</td>
+                    <td>35</td>
+                    <td>171</td>
+                    <td>60</td>
+                    <td class="actividad">No gracias</td>
+                    <td>1311 kCal</td>
+                    <td>1793 kCal</td>
+                </tr>
+                <tr>
+                    <td>Eullina</td>
+                    <td class="Woman">Bartolomea</td>
+                    <td>25</td>
+                    <td>166</td>
+                    <td>59</td>
+                    <td class="actividad">Moderada</td>
+                    <td>1412 kCal</td>
+                    <td>1943 kCal</td>
+                </tr>
+              
+            
+            </tbody>
+            </table>
+
+            <input  type="submit" class="boton" name="enviar" value="Añadir cliente" id="enviar" >
+        </div>
+        
+        <div id="autor">
+                <h3>Juan José Aragón&#169 2022</h3>
+        </div>
+    </section>
+
+    <section id="exter2">
+        <h2>Nuevo Cliente</h2>
+        <div id="inter2">
+            <form method="get">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" required/> 
+
+                </br>
+
+                <label for="Sexo">Sexo:</label>
+                <label for="Hombre">Hombre</label>
+                <input type="radio" value="Hombre"/>
+                <label for="Mujer">Mujer</label>
+                <input type="radio" value="Mujer" />
+            
+                </br>
+                 
+                <label id="edad" for="Edad">Edad:</label>
+                <input type="number" required/>
+
+                </br>
+                
+                <label for="Altura">Altura(cm):</label>
+                <input id="altura" type="number" required/>
+            
+                </br>
+            
+                <label id="peso" for="Peso">Peso:</label>
+                <input type="number" required/>
+
+                </br>
+
+                <label for="actividad">Actividad:</label>
+                <select id="actividad"crequirded>
+                <option >Suave o sedentaria</option>
+                <option>Moderada</option>
+                <option>Alta</option>
+                </select>
+            </form>
+            
+            <div class="botones">
+                <input type="submit" value="Añadir Nuevo" name="añadir" id="añadir">
+                <input type="reset" value="Volver Atrás" name="atras" id="atras">
+            </div>
+        </div>
+    </section>
+    
+
+
+    <script src="static/app.js"></script>
+
+</body>
+</html>
